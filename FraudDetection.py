@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul  4 18:05:05 2019
-
-@author: Ravi
-"""
-
-
 # import the required packages
 
 import numpy as np
@@ -16,7 +8,7 @@ import sys
 import scipy
 
 # load the dataset using pandas
-data = pd.read_csv(r'C:\Users\Ravi\Downloads\creditcardfraud\creditcard.csv')
+data = pd.read_csv(r'C:\Users\Aman\Downloads\creditcardfraud\creditcard.csv')
 
 # dataset exploring
 print(data.columns)
